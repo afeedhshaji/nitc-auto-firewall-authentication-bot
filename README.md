@@ -6,5 +6,12 @@ You need to have the 'data.xslx' file to parse the roll number and date of birth
 
 ### How To Run?
 ```python
-python main.py
+python main.py 
+```
+
+### Dependancies
+```python
+pip install pandas
+pip install requests
+pip install random2
 ```
