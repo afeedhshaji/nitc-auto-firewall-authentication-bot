@@ -9,7 +9,8 @@ import random
 class bot:
     obj_parser = parser()
     obj_login = login()
-
+    logged_in = 0
+    
     def auto_log():
         file = "data.xlsx"
         df = pd.read_excel('data.xlsx', sheet_name='Export Worksheet')
