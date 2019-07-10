@@ -33,6 +33,6 @@ class parser:
             a[1] = '11'
         elif a[1] == 'DEC':
             a[1] = '12'
-        dob = a[0] + "-" + a[1] + "-19" + a[2]
+        dob = a[0]+"-"+a[1]+"-19"+a[2]
 
         return (roll_no, dob)
