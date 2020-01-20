@@ -19,7 +19,7 @@ def login(gatewayaddr, magic):
 
         if 'keepalive' in r.url:
             print(roll_no+":"+dob)
-            logout(gatewayaddr, magic)
+#            logout(gatewayaddr, magic)
             break
 
 
