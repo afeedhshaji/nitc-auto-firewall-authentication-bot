@@ -2,5 +2,3 @@
 ```python
 python main.py 
 ```
-
-```
